@@ -1,2 +1,2 @@
-FROM alpine
-CMD ["echo", "hello world"]
+FROM nginx:1.27-alpine
+RUN echo "Hello World"
