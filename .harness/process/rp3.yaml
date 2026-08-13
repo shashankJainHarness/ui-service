@@ -5,7 +5,7 @@ process:
   phases:
     - phase:
         id: phase
-        name: phase
+        name: phase1
         description: ""
         owners:
           - account._account_all_users
