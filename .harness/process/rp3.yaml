@@ -17,3 +17,8 @@ process:
             name: ShashankTest
             description: Haha
             depends-on: []
+          - activity: SubprocessActivityGitx
+            id: SubprocessActivityGitx
+            name: SubprocessActivityGitx
+            description: ""
+            depends-on: []
