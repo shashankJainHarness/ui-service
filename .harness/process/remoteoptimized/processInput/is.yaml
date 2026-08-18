@@ -1,4 +1,9 @@
 name: IS
 id: IS
-global: {}
+global:
+  inputs:
+    sfsdf:
+      type: string
+      description: ""
+      default: null
 phases: []
