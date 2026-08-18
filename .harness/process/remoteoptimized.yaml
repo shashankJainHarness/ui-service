@@ -11,4 +11,9 @@ process:
           - account._account_all_users
         depends-on: []
         outputs: {}
-        activities: []
+        activities:
+          - activity: RemoteOptimized
+            id: RemoteOptimized
+            name: RemoteOptimized
+            description: ""
+            depends-on: []
