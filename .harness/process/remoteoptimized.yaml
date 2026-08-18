@@ -1,0 +1,14 @@
+process:
+  id: RemoteOptimized
+  name: RemoteOptimized
+  description: ""
+  phases:
+    - phase:
+        id: phase
+        name: phase
+        description: ""
+        owners:
+          - account._account_all_users
+        depends-on: []
+        outputs: {}
+        activities: []
