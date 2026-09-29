@@ -29,3 +29,9 @@ process:
             description: ""
             depends-on: []
             gitBranch: main-patch-2
+          - activity: PipelineRemoteAct
+            id: PipelineRemoteAct2
+            name: PipelineRemoteAct2
+            description: ""
+            depends-on: []
+            gitBranch: main-patch-2
