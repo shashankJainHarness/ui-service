@@ -17,3 +17,9 @@ process:
             name: RemoteOptimized
             description: ""
             depends-on: []
+          - activity: Manual
+            id: Manual
+            name: Manual
+            description: ""
+            depends-on: []
+            gitBranch: main-patch-01
