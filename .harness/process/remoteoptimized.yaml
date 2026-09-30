@@ -17,12 +17,6 @@ process:
             name: RemoteOptimized
             description: ""
             depends-on: []
-          - activity: Manual
-            id: Manual
-            name: Manual
-            description: ""
-            depends-on: []
-            gitBranch: main-patch-01
           - activity: PipelineRemoteAct
             id: PipelineRemoteAct
             name: PipelineRemoteAct
@@ -41,3 +35,15 @@ process:
             description: ""
             depends-on: []
             gitBranch: shashankJainHarness-patch-1
+          - activity: Manual
+            id: Manual
+            name: Manual
+            description: ""
+            depends-on: []
+            gitBranch: main-patch-01-1
+          - activity: Manual
+            id: Manual2
+            name: Manual2
+            description: ""
+            depends-on: []
+            gitBranch: main-patch-01-1
