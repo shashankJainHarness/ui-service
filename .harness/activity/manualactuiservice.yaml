@@ -1,0 +1,8 @@
+activity:
+  description: ""
+  id: ManualActUIService
+  inputs: {}
+  name: ManualActUIService
+  outputs: {}
+  manual:
+    tasks: []
