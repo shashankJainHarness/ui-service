@@ -1,0 +1,8 @@
+activity:
+  description: ""
+  id: UISvcManualMainBranch
+  inputs: {}
+  name: UISvcManualMainBranch
+  outputs: {}
+  manual:
+    tasks: []
