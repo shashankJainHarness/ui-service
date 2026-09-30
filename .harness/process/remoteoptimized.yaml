@@ -47,3 +47,8 @@ process:
             description: ""
             depends-on: []
             gitBranch: main-patch-01-1
+          - activity: UISvcManualMainBranch
+            id: UISvcManualMainBranch
+            name: UISvcManualMainBranch
+            description: ""
+            depends-on: []
