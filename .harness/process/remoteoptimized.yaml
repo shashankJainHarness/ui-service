@@ -35,3 +35,9 @@ process:
             description: ""
             depends-on: []
             gitBranch: main-patch-2
+          - activity: ManualActUIService
+            id: ManualActUIService
+            name: ManualActUIService
+            description: ""
+            depends-on: []
+            gitBranch: shashankJainHarness-patch-1
