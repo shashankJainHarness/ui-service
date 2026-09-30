@@ -1,6 +1,6 @@
 process:
   id: RemoteOptimized
-  name: RemoteOptimized
+  name: RemoteOptimized2
   description: ""
   phases:
     - phase:
