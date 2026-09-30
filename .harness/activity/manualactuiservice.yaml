@@ -1,7 +1,14 @@
 activity:
   description: ""
   id: ManualActUIService
-  inputs: {}
+  inputs:
+    abcd:
+      description: ""
+      type: string
+      default: shasab
+      optional: false
+      readOnly: false
+      value: shasab
   name: ManualActUIService
   outputs: {}
   manual:
