@@ -1,0 +1,8 @@
+activity:
+  description: ""
+  id: UIServAct
+  inputs: {}
+  name: UIServAct
+  outputs: {}
+  manual:
+    tasks: []
