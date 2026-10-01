@@ -53,3 +53,12 @@ process:
             description: ""
             depends-on: []
             gitBranch: main-patch
+    - phase:
+        id: phase2
+        name: phase2
+        description: ""
+        owners:
+          - account._account_all_users
+        depends-on: []
+        outputs: {}
+        activities: []
