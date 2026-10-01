@@ -12,11 +12,6 @@ process:
         depends-on: []
         outputs: {}
         activities:
-          - activity: RemoteOptimized
-            id: RemoteOptimized
-            name: RemoteOptimized
-            description: ""
-            depends-on: []
           - activity: PipelineRemoteAct
             id: PipelineRemoteAct
             name: PipelineRemoteAct
@@ -52,3 +47,9 @@ process:
             name: UISvcManualMainBranch
             description: ""
             depends-on: []
+          - activity: RemoteOptimized
+            id: RemoteOptimized
+            name: RemoteOptimized
+            description: ""
+            depends-on: []
+            gitBranch: main-patch
