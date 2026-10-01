@@ -61,4 +61,10 @@ process:
           - account._account_all_users
         depends-on: []
         outputs: {}
-        activities: []
+        activities:
+          - activity: ManualActUIService
+            id: ManualActUIService
+            name: ManualActUIService
+            description: ""
+            depends-on: []
+            gitBranch: shashankJainHarness-patch-1
