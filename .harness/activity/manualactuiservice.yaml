@@ -9,7 +9,21 @@ activity:
       optional: false
       readOnly: false
       value: shasab
+    shashank:
+      description: ""
+      type: userGroups
+      default:
+        - account._account_all_users
   name: ManualActUIService
   outputs: {}
   manual:
-    tasks: []
+    tasks:
+      - id: adsa
+        name: adsa
+        required: true
+        description: ""
+        duration: 1d
+        userGroups: <+activityInput.shashank>
+        users: []
+        execute:
+          processes: none
