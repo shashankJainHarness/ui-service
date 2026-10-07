@@ -24,12 +24,6 @@ process:
             description: ""
             depends-on: []
             gitBranch: main-patch-2
-          - activity: ManualActUIService
-            id: ManualActUIService
-            name: ManualActUIService
-            description: ""
-            depends-on: []
-            gitBranch: shashankJainHarness-patch-1
           - activity: Manual
             id: Manual
             name: Manual
@@ -41,12 +35,6 @@ process:
             name: UISvcManualMainBranch
             description: ""
             depends-on: []
-          - activity: RemoteOptimized
-            id: RemoteOptimized
-            name: RemoteOptimized
-            description: ""
-            depends-on: []
-            gitBranch: main-patch
           - activity: UISvcMain
             id: UISvcMain
             name: UISvcMain
