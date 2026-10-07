@@ -12,29 +12,6 @@ process:
         depends-on: []
         outputs: {}
         activities:
-          - activity: PipelineRemoteAct
-            id: PipelineRemoteAct
-            name: PipelineRemoteAct
-            description: ""
-            depends-on: []
-            gitBranch: main-patch-2
-          - activity: PipelineRemoteAct
-            id: PipelineRemoteAct2
-            name: PipelineRemoteAct2
-            description: ""
-            depends-on: []
-            gitBranch: main-patch-2
-          - activity: Manual
-            id: Manual
-            name: Manual
-            description: ""
-            depends-on: []
-            gitBranch: main-patch-01-1
-          - activity: UISvcManualMainBranch
-            id: UISvcManualMainBranch
-            name: UISvcManualMainBranch
-            description: ""
-            depends-on: []
           - activity: UISvcMain
             id: UISvcMain
             name: UISvcMain
