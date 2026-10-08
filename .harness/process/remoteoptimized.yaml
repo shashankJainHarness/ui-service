@@ -40,11 +40,6 @@ process:
             description: ""
             depends-on: []
             gitBranch: main
-          - activity: SubprocessRemotre
-            id: SubprocessRemotre
-            name: SubprocessRemotre
-            description: ""
-            depends-on: []
     - phase:
         id: phase2
         name: phase2
