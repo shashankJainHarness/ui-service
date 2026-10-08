@@ -40,6 +40,11 @@ process:
             description: ""
             depends-on: []
             gitBranch: main
+          - activity: TestOpaWarn
+            id: TestOpaWarn
+            name: TestOpaWarn
+            description: ""
+            depends-on: []
     - phase:
         id: phase2
         name: phase2
