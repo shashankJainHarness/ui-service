@@ -13,12 +13,6 @@ process:
         outputs: {}
         activities:
           - activity: PipelineRemoteAct
-            id: PipelineRemoteAct
-            name: PipelineRemoteAct
-            description: ""
-            depends-on: []
-            gitBranch: main-patch-2
-          - activity: PipelineRemoteAct
             id: PipelineRemoteAct2
             name: PipelineRemoteAct2
             description: ""
@@ -40,6 +34,12 @@ process:
             name: UISvcMain
             description: ""
             depends-on: []
+          - activity: PipelineRemoteAct
+            id: PipelineRemoteAct
+            name: PipelineRemoteAct
+            description: ""
+            depends-on: []
+            gitBranch: main
     - phase:
         id: phase2
         name: phase2
