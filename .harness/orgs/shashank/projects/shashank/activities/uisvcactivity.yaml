@@ -1,0 +1,8 @@
+activity:
+  description: ""
+  id: UISvcActivity
+  inputs: {}
+  name: UISvcActivity
+  outputs: {}
+  manual:
+    tasks: []
