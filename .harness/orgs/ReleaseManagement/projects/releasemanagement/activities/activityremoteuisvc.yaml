@@ -1,0 +1,15 @@
+activity:
+  description: ""
+  id: ActivityRemoteUISvc
+  inputs:
+    mainBranchVar:
+      description: ""
+      type: string
+      default: shashank
+      optional: false
+      readOnly: false
+      value: shashank
+  name: ActivityRemoteUISvc
+  outputs: {}
+  manual:
+    tasks: []
